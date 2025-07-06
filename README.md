@@ -72,10 +72,10 @@ ExpenseTrack/
 
 3. Create a `.env` file in the backend directory:
    ```env
-   MONGODB_URI=your_mongodb_connection_string
+   MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    PORT=5000
-   GOOGLE_AI_API_KEY=your_google_ai_api_key
+   GEMINI_API_KEY=your_gemini_api_key
    ```
 
 4. Start the development server:
@@ -116,9 +116,9 @@ ExpenseTrack/
    - **Build Command**: `npm install`
    - **Start Command**: `npm start`
    - **Environment Variables**:
-     - `MONGODB_URI`: Your MongoDB connection string
+     - `MONGO_URI`: Your MongoDB connection string
      - `JWT_SECRET`: Your JWT secret key
-     - `GOOGLE_AI_API_KEY`: Your Google AI API key
+     - `GEMINI_API_KEY`: Your Gemini API key
      - `NODE_ENV`: `production`
 
 ### Frontend Deployment (Vercel)
@@ -135,10 +135,10 @@ ExpenseTrack/
 ## Environment Variables
 
 ### Backend (.env)
-- `MONGODB_URI`: MongoDB connection string
+- `MONGO_URI`: MongoDB connection string
 - `JWT_SECRET`: Secret key for JWT tokens
 - `PORT`: Server port (default: 5000)
-- `GOOGLE_AI_API_KEY`: Google Generative AI API key
+- `GEMINI_API_KEY`: Google Gemini AI API key
 
 ### Frontend (.env)
 - `VITE_API_URL`: Backend API URL
